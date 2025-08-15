@@ -3,6 +3,11 @@
 Eraya Cosmetic is a **modern, luxurious cosmetics frontend** built entirely with **React.js**.  
 The project showcases my ability to create **clean, responsive, and visually appealing UIs** using React and custom CSS.  
 
+🔥 Live Demo
+
+Check the live deployed project here:
+https://eraya-mark-of-serenity.onrender.com
+
 ## What I did
 - Built all pages and components from scratch using **React.js**  
 - Styled the website with **custom CSS** for a premium look  
