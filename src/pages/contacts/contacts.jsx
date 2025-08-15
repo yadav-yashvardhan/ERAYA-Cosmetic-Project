@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './Contacts.css';
+import './contacts.css';
 import frontImage from '../../assets/front.png'; // 👈 replace with your image path
 import backImage from '../../assets/back.png';   // 👈 replace with your image path
 
@@ -38,5 +38,6 @@ const Contact = () => {
 };
 
 export default Contact;
+
 
 
