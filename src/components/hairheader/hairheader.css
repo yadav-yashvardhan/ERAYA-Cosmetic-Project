@@ -1,0 +1,7 @@
+.hairheader {
+    height: 70vh;
+    margin: 30px auto;
+    background: url('/hairbanner.png') no-repeat;
+    background-size: contain;
+    position: relative;
+}

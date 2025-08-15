@@ -1,0 +1,7 @@
+.lipheader{
+    height: 70vh;
+    margin: 30px auto;
+    background: url('/lipbanner.png') no-repeat;
+    background-size: contain;
+    position: relative;
+}

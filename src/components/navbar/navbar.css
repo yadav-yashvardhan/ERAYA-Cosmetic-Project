@@ -1,0 +1,109 @@
+
+.navbar{
+  background-color: black;
+  height: 50px;
+  padding: 20px;
+}.navbar h1{
+  font-size:xx-large;
+  width: 150px;
+  color: white;
+}
+.navbar{
+  padding: 20px 0 px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-menu{
+  display: flex;
+  list-style: none;
+  gap: 80px;
+  color:white;
+  font-size: 18px;
+  cursor: pointer;
+}
+.navbar-right{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.navbar button{
+  background: transparent;
+  font-size: 16px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 50px;
+  padding: 10px;
+  background-repeat: 50px;
+  cursor: pointer;
+  width: 100px;
+}
+.navbar button:hover{
+  background-color: white;
+  color: black;
+  transition: 0.3s;
+}
+.collections-item {
+  position: relative;
+}
+.dropdown-wrapper {
+  position: relative; /* Ensures dropdown is relative to this */
+  display: inline-block;
+  text-align: center;
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%; /* places dropdown below the wrapper */
+  left: 50%;  /* Start at center */
+  transform: translateX(-50%); /* Shift back half width to center align */
+  background-color: black;
+  color: white;
+  padding: 10px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  z-index: 100;
+  min-width: 160px;
+  text-align: left;
+  list-style: none;
+  
+  
+}
+
+.dropdown-item{
+  background-color: white;
+}
+
+.dropdown-item {
+  padding: 10px 20px;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  list-style: none;
+}
+
+.dropdown-item:hover {
+  background-color: white;
+  color: black;
+}
+.navbar .active{
+  padding-bottom: 2px;
+  border-bottom: 2px solid white;
+}
+.navbar-search-icon {
+  position: relative;
+}
+.navbar-search-icon .dot{
+  position: absolute;
+  min-width: 10px;
+  min-height: 10px;
+  background-color: white;
+  border-radius: 5px;
+  top: -8px;
+  right: -8px;
+}
+.blur-background {
+  filter: blur(4px);
+  pointer-events: none;
+  user-select: none;
+}

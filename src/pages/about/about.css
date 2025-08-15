@@ -1,0 +1,107 @@
+/* General Styles */
+.about {
+  padding-top: 80px; /* Adjust for fixed navbar height */
+}
+
+/* Hero Section */
+.about-hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://via.placeholder.com/1920x600?text=About+Hero') center/cover no-repeat;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.about-hero-content {
+  max-width: 800px;
+  padding: 20px;
+}
+
+.about-title {
+  font-family: 'Cinzel', serif;
+  font-size: 48px;
+  font-weight: 700;
+  color: #d4af37;
+  margin-bottom: 16px;
+}
+
+.about-subtitle {
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  font-style: italic;
+}
+
+/* Content Section */
+.about-content {
+  background: #1a1a1a;
+  padding: 60px 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.section-title {
+  font-family: 'Cinzel', serif;
+  font-size: 36px;
+  color: #d4af37;
+  margin-bottom: 16px;
+}
+
+.section-description {
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+  color: #cccccc;
+  max-width: 800px;
+  margin: 0 auto 32px;
+}
+
+.about-cta {
+  display: inline-block;
+  padding: 12px 24px;
+  background: #d4af37;
+  color: #000000;
+  text-decoration: none;
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
+  border-radius: 4px;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.about-cta:hover {
+  background: #b8972e;
+  transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-hero {
+    height: 50vh;
+  }
+
+  .about-title {
+    font-size: 36px;
+  }
+
+  .about-subtitle {
+    font-size: 20px;
+  }
+
+  .section-title {
+    font-size: 28px;
+  }
+
+  .section-description {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-title {
+    font-size: 28px;
+  }
+
+  .about-subtitle {
+    font-size: 18px;
+  }
+}

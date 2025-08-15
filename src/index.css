@@ -1,0 +1,24 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* body{
+  min-height: 100vh;
+  background-color:#000000;
+} */
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+.app{
+  width: 80%;
+  margin: auto;
+}
+
+body {
+  background-color: black; /* ya jo tumhara background ho */
+  color: white; /* Default text color */
+}

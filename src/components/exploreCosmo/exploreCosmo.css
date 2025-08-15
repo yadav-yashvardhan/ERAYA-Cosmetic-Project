@@ -1,0 +1,44 @@
+.explore-cosmo{
+    display: flex;
+    flex-direction: column;
+}
+.explore-cosmo h1{
+    color: white;
+    font-weight: 500;
+    font-size: 55px;
+}
+.explore-cosmo-text{
+    max-width: 68%;
+    columns:#808080;
+    color: gray;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.explore-cosmo-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    margin: 20px 0px;
+    overflow-x:scroll;
+}
+.explore-cosmo-list::-webkit-scrollbar{
+    display: none;
+}
+.explore-cosmo-list-item{
+    color: white;
+    font-size: 25px;
+    /* border: 2px solid white; */
+    padding: 10px;
+    cursor: pointer;
+}
+/* exploreCosmo.css */
+.explore-cosmo-list-item img {
+  width: 300px; /* Set desired width */
+  height: 350px; /* Set desired height */
+  object-fit: cover; /* Ensures the image covers the area without distortion */
+  display: block; /* Removes extra space below images */
+  border-radius: 20px;
+  /* margin: 5px; */
+}
