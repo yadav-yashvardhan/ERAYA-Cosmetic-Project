@@ -24,9 +24,6 @@ Check the live deployed project here:
 **Login Page**  
 ![Homepage](src/assets/loginPage.png)
 
-**About Page**
-![Login Pge](src/assets/AboutPage.png)
-
 **Contact Page 1**
 ![Login Pge](src/assets/contactPage1.png)
 
