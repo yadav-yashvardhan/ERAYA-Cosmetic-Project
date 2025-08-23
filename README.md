@@ -16,7 +16,7 @@ Check the live deployed project here:
 ## 📸 Screenshots
 
 **Homepage**  
-![Homepage](assets/homepage.png)
+![Homepage](assets/Screenshot 2025-08-23 232505.png)
 
 **About Page**
 ![Login Pge](assets/AboutPage.png)
