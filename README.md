@@ -6,12 +6,12 @@ The project showcases my ability to create **clean, responsive, and visually app
 🔥 Live Demo
 
 Check the live deployed project here:
-https://eraya-mark-of-serenity.onrender.com
+[https://eraya-cosmetic-project.onrender.com]
 
 ## What I did
 - Built all pages and components from scratch using **React.js**  
 - Styled the website with **custom CSS** for a premium look  
-- Focused on creating a **smooth, user-friendly experience**  
+- Focused on creating a **smooth, user-friendly experience**
 
 ## How to run
 1. Clone the repository  
