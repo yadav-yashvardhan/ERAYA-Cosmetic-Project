@@ -13,6 +13,27 @@ Check the live deployed project here:
 - Styled the website with **custom CSS** for a premium look  
 - Focused on creating a **smooth, user-friendly experience**
 
+## 📸 Screenshots
+
+**Homepage**  
+![Homepage](assets/homepage.png)
+
+**About Page**
+![Login Pge](assets/AboutPage.png)
+
+**Contact Page 1**
+![Login Pge](assets/ContactPage1.png)
+
+**Contact Page 2**
+![Login Pge](assets/ContactPage2.png)
+
+**Collection Page**
+![Login Pge](assets/CollectionPage.png)
+
+
+---
+
+
 ## How to run
 1. Clone the repository  
 2. Run `npm install`  
