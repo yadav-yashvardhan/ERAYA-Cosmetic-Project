@@ -18,17 +18,23 @@ Check the live deployed project here:
 **Homepage**  
 ![Homepage](src/assets/homepage.png)
 
+**Homepage**  
+![Homepage](src/assets/homepage2.png)
+
+**Login Page**  
+![Homepage](src/assets/loginPage.png)
+
 **About Page**
-![Login Pge](assets/AboutPage.png)
+![Login Pge](src/assets/AboutPage.png)
 
 **Contact Page 1**
-![Login Pge](assets/ContactPage1.png)
+![Login Pge](src/assets/contactPage1.png)
 
 **Contact Page 2**
-![Login Pge](assets/ContactPage2.png)
+![Login Pge](src/assets/contactPage2.png)
 
 **Collection Page**
-![Login Pge](assets/CollectionPage.png)
+![Login Pge](src/assets/collectionPage.png)
 
 
 ---
