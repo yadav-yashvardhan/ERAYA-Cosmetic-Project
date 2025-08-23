@@ -1,7 +1,8 @@
-.lipheader{
+.lipheader {
     height: 70vh;
     margin: 30px auto;
-    background: url('/lipbanner.png') no-repeat;
-    background-size: contain;
+    background: url('/lipbanner.png') no-repeat center center;
+    background-size: cover;   /* Image crop hogi aur poore area ko cover karegi */
+    background-position: center;  /* Image hamesha centre main rhegi */
     position: relative;
 }

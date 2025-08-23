@@ -12,7 +12,7 @@ function Footer() {
             ERAYA - Your trusted platform for innovative solutions. Connect with us
             for more information and updates.
           </p>
-          <div className="footer-social-icons">
+          <div className="footer-socials">
             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
               <img src={assets.facebook} alt="Follow us on Facebook" />
             </a>
@@ -27,6 +27,7 @@ function Footer() {
             </a>
           </div>
         </div>
+
         <div className="footer-content-center">
           <h2>COMPANY</h2>
           <ul>
@@ -36,6 +37,7 @@ function Footer() {
             <li><a href="/privacy-policy">Privacy Policy</a></li>
           </ul>
         </div>
+
         <div className="footer-content-right">
           <h2>GET IN TOUCH</h2>
           <ul>
@@ -44,8 +46,11 @@ function Footer() {
           </ul>
         </div>
       </div>
+
       <hr />
-      <p className="footer-copyright">Copyright 2025 © ERAYA.com - All Rights Reserved.</p>
+      <p className="footer-copyright">
+        Copyright 2025 © ERAYA.com - All Rights Reserved.
+      </p>
     </div>
   );
 }

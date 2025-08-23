@@ -22,3 +22,13 @@ body {
   background-color: black; /* ya jo tumhara background ho */
   color: white; /* Default text color */
 }
+
+
+/*Media Queries*/
+
+/* @media (max-width:480px) {
+  body{
+     background-color: white;
+  }
+
+} */

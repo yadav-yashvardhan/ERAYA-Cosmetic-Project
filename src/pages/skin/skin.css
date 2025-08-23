@@ -83,3 +83,52 @@
   font-weight: bold;
   color: #fff;
 }
+
+
+/* --- Responsive Tweaks --- */
+@media (max-width: 1024px) {
+  .product-img {
+    height: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .skin-page h1 {
+    font-size: 1.7rem;
+  }
+
+  .products-grid {
+    gap: 20px;
+  }
+
+  .product-img {
+    height: 180px;
+  }
+}
+
+@media (max-width: 480px) {
+  .skin-page {
+    padding: 15px;
+  }
+
+  .skin-page h1 {
+    font-size: 1.5rem;
+  }
+
+  .product-card {
+    padding: 15px;
+  }
+
+  .product-img {
+    height: 160px;
+  }
+
+  .quantity-controls button {
+    padding: 6px 10px;
+    font-size: 0.9rem;
+  }
+
+  .quantity-controls span {
+    font-size: 1rem;
+  }
+}
